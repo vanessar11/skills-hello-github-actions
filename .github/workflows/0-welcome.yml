@@ -8,8 +8,3 @@ jobs:
   build:
     name: Post welcome comment
     runs-on: ubuntu-latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 0
-          to_step: 1
-          branch_name: welcome-workflow
